@@ -15,6 +15,26 @@ main {
   align-items: baseline;
 }
 
+.projectInfo {
+  border: solid rgb(0, 75, 75) 0.25rem;
+  padding: 0.5rem;
+}
+
+.projectLink {
+  margin: auto;
+  color: black;
+  text-decoration: none;
+  border: 0.25rem solid rgb(0, 75, 75);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: aqua;
+  transition: 0.25s;
+}
+
+.projectLink:hover {
+  background-color: rgb(0, 150, 150);
+}
+
 #containerInfo > h1 {
   margin-bottom: 0.5rem;
 }
@@ -42,4 +62,16 @@ img {
 
 #JSsignature {
   text-align: right;
+}
+
+footer {
+  margin: 1rem 0 0 0;
+  background-color: rgb(0, 150, 150);
+  padding: 1rem;
+  text-align: center;
+  color: black;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-size: 1.25rem;
 }
