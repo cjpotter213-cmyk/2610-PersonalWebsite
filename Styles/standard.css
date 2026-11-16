@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#containerInfo {
+  width: 100ch;
+  display: flex;
+  flex-direction: column;
+  align-items: baseline;
+}
+
+#contactInfo {
+  width: 100ch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.frontPageCenter {
+  width: 100ch;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projectInfo {
+  border: solid rgb(0, 75, 75) 0.25rem;
+  padding: 0.5rem;
+}
+
+.projectLink {
+  margin: auto;
+  color: black;
+  text-decoration: none;
+  border: 0.25rem solid rgb(0, 75, 75);
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+  background-color: aqua;
+  transition: 0.25s;
+}
+
+.projectLink:hover {
+  background-color: rgb(0, 150, 150);
+}
+
+#containerInfo > h1 {
+  margin-bottom: 0.5rem;
+}
+
+h2 {
+  text-decoration: underline;
+  margin-bottom: 0.5rem;
+}
+
+p {
+  margin-top: 0.5rem;
+}
+
+img {
+  width: 50dvh;
+  height: auto;
+}
+
+#JackSparrow {
+  background-color: tan;
+  padding: 1rem;
+  width: 75%;
+  border: 2px solid rgb(90, 77, 59);
+  border-radius: 0.25rem;
+}
+
+#JSsignature {
+  text-align: right;
+}
+
+footer {
+  margin: 1rem 0 0 0;
+  background-color: rgb(0, 150, 150);
+  padding: 1rem;
+  text-align: center;
+  color: black;
+  font-family:
+    "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  font-size: 1.25rem;
+}
+
+#contactHead {
+  text-align: center;
+}
+
+#contactIMG {
+  width: 50dvh;
+  height: auto;
+}
+
+form > div {
+  display: flex;
+  width: 50dvh;
+  flex-direction: column;
+  padding-top: 1rem;
+}
+
+#submit {
+  margin-top: 1rem;
+  font-size: 1rem;
+  padding: 0.5rem 1rem;
+  width: 100%;
+  background-color: aqua;
+  border: 0.25rem solid rgb(0, 75, 75);
+  border-radius: 0.5rem;
+  transition: 0.25s;
+  align-self: center;
+}
+
+#submit:hover {
+  background-color: rgb(0, 125, 125);
+  color: white;
+  cursor: pointer;
+}
+
+@media (width <= 600px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .frontPageCenter {
+    width: 75dvw;
+  }
+
+  #JackSparrow {
+    width: 75dvw;
+  }
+
+  #containerInfo {
+    width: 75dvw;
+  }
+
+  #contactInfo {
+    width: 75dvw;
+  }
+
+  form > div {
+    width: 100dvw;
+  }
+
+  #submit {
+    width: 100dvw;
+  }
+}
