@@ -10,15 +10,10 @@
   margin-bottom: 1rem;
 }
 
-#navbar h1 {
-  margin-left: 1rem;
-}
-
 nav {
   display: flex;
   justify-content: center;
   gap: 1rem;
-  margin-right: 1rem;
 }
 
 nav > a {
@@ -29,7 +24,7 @@ nav > a {
     "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
     Arial, sans-serif;
   background-color: rgb(0, 48, 48);
-  border: 0.2rem solid black;
+  border: 0.25rem solid black;
   border-radius: 0.25rem;
   padding: 0.5rem;
   transition: 0.25s;
@@ -37,4 +32,21 @@ nav > a {
 
 nav > a:hover {
   background-color: rgb(0, 100, 100);
+}
+
+@media (width <= 600px) {
+  #navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (width >= 600px) {
+  #navbar h1 {
+    margin-left: 1rem;
+  }
+
+  nav {
+    margin-right: 1rem;
+  }
 }
